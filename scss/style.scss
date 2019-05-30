@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+$orange: #FFB300;
+$yellow: #FF0;
+$green: #0F0;
+$blue: #00D4D7;
+
+$black: #000;
+$grey: #D9D9D9;
+$white: #FFF;
+
+$size: 15em;
+
+//
+
+* {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+main {
+    height: 100%;
+    position: relative;
+}
+    
+div {
+    border-radius: ($size / 2);
+    height: $size;
+    width: $size;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    margin: (-$size / 2) 0 0 (-$size / 2);
+    
+    text-align: center;
+    line-height: $size;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+
+.orange {
+    background-color: $orange;
+}
+
+
+.yellow {
+    background-color: $yellow;
+}
+
+.green {
+    background-color: $green;
+}
+
+.blue {
+    background-color: $blue;
+}
+
+.black {
+    background-color: $black;
+}
+
+.grey {
+    background-color: $grey;
+}
+
+.white {
+    background-color: $white;
+}
