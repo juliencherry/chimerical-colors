@@ -12,69 +12,69 @@ $white: #FFF;
 $size: 15em;
 
 * {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 html, body {
-    height: 100%;
-    width: 100%;
-    margin: 0;
+	height: 100%;
+	width: 100%;
+	margin: 0;
 }
 
 main {
-    height: 100%;
-    position: relative;
+	height: 100%;
+	position: relative;
 }
 
 div {
-    border-radius: ($size / 2);
-    height: $size;
-    width: $size;
+	border-radius: ($size / 2);
+	height: $size;
+	width: $size;
 
-    position: absolute;
-    top: 50%;
-    left: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
 
-    margin: (-$size / 2) 0 0 (-$size / 2);
+	margin: (-$size / 2) 0 0 (-$size / 2);
 
-    text-align: center;
-    line-height: $size;
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 2em;
+	text-align: center;
+	line-height: $size;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 2em;
 }
 
 
 .orange {
-    background-color: $orange;
+	background-color: $orange;
 }
 
 
 .yellow {
-    background-color: $yellow;
+	background-color: $yellow;
 }
 
 .green {
-    background-color: $green;
+	background-color: $green;
 }
 
 .blue {
-    background-color: $blue;
+	background-color: $blue;
 }
 
 .black {
-    background-color: $black;
+	background-color: $black;
 }
 
 .grey {
-    background-color: $grey;
+	background-color: $grey;
 }
 
 .white {
-    background-color: $white;
+	background-color: $white;
 }
