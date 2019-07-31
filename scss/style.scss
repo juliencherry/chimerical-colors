@@ -11,16 +11,13 @@ $white: #FFF;
 
 $size: 15em;
 
-//
-
 * {
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none;   /* Chrome/Safari/Opera */
-  -khtml-user-select: none;    /* Konqueror */
-  -moz-user-select: none;      /* Firefox */
-  -ms-user-select: none;       /* Internet Explorer/Edge */
-  user-select: none;           /* Non-prefixed version, currently
-                                  not supported by any browser */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 html, body {
@@ -33,18 +30,18 @@ main {
     height: 100%;
     position: relative;
 }
-    
+
 div {
     border-radius: ($size / 2);
     height: $size;
     width: $size;
-    
+
     position: absolute;
     top: 50%;
     left: 50%;
-    
+
     margin: (-$size / 2) 0 0 (-$size / 2);
-    
+
     text-align: center;
     line-height: $size;
     font-family: sans-serif;
